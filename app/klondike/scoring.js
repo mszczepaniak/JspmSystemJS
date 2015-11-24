@@ -1,6 +1,4 @@
-angular.module("klondike.scoring", [])
-  .service("scoring", [function Scoring() {
-    "use strict";
+export function Scoring() {
 
     this.score = 0;
 
@@ -30,4 +28,4 @@ angular.module("klondike.scoring", [])
         }
       }
     }
-  }]);
+};
